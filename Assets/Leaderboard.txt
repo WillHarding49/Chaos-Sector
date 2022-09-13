@@ -1,0 +1,10 @@
+12000 Will
+11000 JoeG
+10000 Charlie
+9000 Jaber
+8000 JoeB
+7000 Sophia
+6900 Abbie
+5000 Danny
+4000 Aziz
+3000 Steven
