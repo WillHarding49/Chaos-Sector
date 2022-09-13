@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Components">
+      <UniqueIdentifier>{51583150-9cd5-4ea3-8281-7eeacf04de5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{643bfcc8-42c6-4f2f-a86a-9b0197f059e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projectiles">
+      <UniqueIdentifier>{57c8f1b1-3e54-4fdb-b29a-3e9d759a7416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{93bbce0e-9804-4690-afbf-20b1669b0e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{5df9940b-fffd-44c6-b82e-1e2996624130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{cbed8eb1-84ce-4857-bc0b-556e7dc0e555}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveableGameSprite.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectilePool.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MissilePool.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameText.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienRing.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienSphere.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienUFO.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveableGameSprite.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameText.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="CurvesAndPaths.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectilePool.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="MissilePool.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManagerStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienRing.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienSphere.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienUFO.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

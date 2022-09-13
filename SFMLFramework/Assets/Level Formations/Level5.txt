@@ -1,0 +1,5 @@
+x  x  x  C2 C2 C2 C2 x  x  x
+x  B3 B3 B2 B1 B1 B2 B3 B3 x
+x  B3 B3 B2 B1 B1 B2 B3 B3 x
+A5 A5 A4 A4 A1 A1 A4 A4 A5 A5
+A5 A5 A4 A4 A1 A1 A4 A4 A5 A5
